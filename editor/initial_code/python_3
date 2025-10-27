@@ -1,1 +1,19 @@
-{{CODIGO INICIAL}}
+def cabo_de_guerra(forcas):
+    # Seu código aqui
+    return ""
+
+print("Example:")
+print(cabo_de_guerra([7, 5, 3, 8, 10, 7]))
+
+# Exemplos do enunciado
+assert cabo_de_guerra([7, 5, 3, 8, 10, 7]) == "S"
+assert cabo_de_guerra([10, 10, 10, 20, 10, 10]) == "N"
+assert cabo_de_guerra([5, 5, 6, 6, 8, 8]) == "S"
+assert cabo_de_guerra([4, 8, 12, 24, 20, 16]) == "N"
+
+# Casos adicionais
+assert cabo_de_guerra([3, 3, 3, 3, 3, 3]) == "S"
+assert cabo_de_guerra([1, 1, 1, 2, 2, 2]) == "S"
+assert cabo_de_guerra([1, 2, 3, 7, 8, 9]) == "N"
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
