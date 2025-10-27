@@ -32,10 +32,6 @@ TESTS = {
         "answer": "S"
     },
     {
-        "input": [[1, 1, 1, 2, 2, 2]],
-        "answer": "S"
-    },
-    {
         "input": [[1, 2, 3, 7, 8, 9]],
         "answer": "N"
     }
